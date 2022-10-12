@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "PSH",
+    "slug": "PSH",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
