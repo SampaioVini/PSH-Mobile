@@ -25,7 +25,7 @@ export default function Home() {
 
             <TouchableOpacity
                 style={styles.button}
-                onPress={() => navigation.navigate('Search')}
+                onPress={() => navigation.navigate('Novo Evento')}
             >
                 <Text style={styles.buttonText}>Cadastrar novo evento</Text>
             </TouchableOpacity>
