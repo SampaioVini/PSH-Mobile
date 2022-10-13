@@ -3,7 +3,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 
 import { View, Text, StyleSheet } from 'react-native';
-import { Entypo, Feather } from '@expo/vector-icons';
+import {MaterialIcons, Entypo, Feather } from '@expo/vector-icons';
 
 import Inicio from '../pages/Home'
 import CadEvento from '../pages/CadEvento'
@@ -39,7 +39,7 @@ export function Tabs() {
         >
 
             <Tab.Screen
-                name="inicio"
+                name="Inicio"
                 component={Inicio}
                 options={{
                     tabBarIcon: ({ size, color }) => (
@@ -48,11 +48,11 @@ export function Tabs() {
                 }}
             />
             <Tab.Screen
-                name="Cadastrar Evento"
+                name="Novo Evento"
                 component={CadEvento}
                 options={{
                     tabBarIcon: ({ size, color }) => (
-                        <Feather name="cadEvento" size={size} color={color} />
+                        <MaterialIcons name="event" size={size} color={color} />
                     )
                 }}
             />
