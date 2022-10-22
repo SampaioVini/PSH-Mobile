@@ -1,0 +1,3 @@
+npm uninstall @testing-library/react
+
+npm i -D @testing-library/react-native
